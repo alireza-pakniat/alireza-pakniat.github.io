@@ -76,3 +76,24 @@ body {
 h1 {
     color: #0099cc;
 }
+.intro-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.intro-text {
+    max-width: 400px;
+    text-align: left;
+}

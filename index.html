@@ -1,68 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Alireza Pakniat | Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alireza Pakniat</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About Me</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="top-header">
+    <div class="site-name">Alireza Pakniat</div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section class="intro-flex">
-            <img src="profile.jpeg" alt="Alireza's photo" class="profile-pic">
-            <div class="intro-text">
-                <h2>Hello, I'm Alireza 👋</h2>
-                <p>A web enthusiast, student, and curious mind.</p>
-            </div>
-        </section>
-
-        <section class="carousel-section">
-            <h2>Explore</h2>
-            <div class="carousel-container">
-                <button class="carousel-btn left">←</button>
-
-                <div class="carousel-track">
-                    <div class="carousel-item" onclick="location.href='projects.html'">🛠 Projects</div>
-                    <div class="carousel-item" onclick="location.href='about.html'">👤 About Me</div>
-                    <div class="carousel-item">📄 Resume</div>
-                    <div class="carousel-item">📬 Contact</div>
-                </div>
-
-                <button class="carousel-btn right">→</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 Alireza Pakniat</p>
-        <div class="social-links">
-            <a href="https://github.com/alireza-pakniat" target="_blank">🐙 GitHub</a> |
-            <a href="https://linkedin.com/in/alireza-pakniat" target="_blank">💼 LinkedIn</a>
-        </div>
-    </footer>
-
-    <script>
-        const track = document.querySelector('.carousel-track');
-        const btnLeft = document.querySelector('.carousel-btn.left');
-        const btnRight = document.querySelector('.carousel-btn.right');
-
-        btnLeft.addEventListener('click', () => {
-            track.scrollBy({ left: -200, behavior: 'smooth' });
-        });
-
-        btnRight.addEventListener('click', () => {
-            track.scrollBy({ left: 200, behavior: 'smooth' });
-        });
-    </script>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hello">HELLO, MY NAME IS</p>
+      <h1>Alireza Pakniat</h1>
+      <p class="subtitle">B.Sc. Student, Computer Engineering</p>
+      <p class="subtitle">Amirkabir University of Technology</p>
+    </div>
+    <div class="hero-image">
+      <img src="profile.jpeg" alt="Alireza's Photo" />
+    </div>
+  </section>
 </body>
 </html>

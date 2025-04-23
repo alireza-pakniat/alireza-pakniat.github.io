@@ -488,4 +488,30 @@ body {
   .project-card a:hover {
     text-decoration: underline;
   }
+  .footer {
+    background-color: #f3f3f3;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-icons {
+    margin-bottom: 10px;
+  }
+  
+  .footer-icons a {
+    margin: 0 12px;
+    display: inline-block;
+  }
+  
+  .footer-icons img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-icons img:hover {
+    transform: scale(1.2);
+  }
   

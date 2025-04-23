@@ -515,3 +515,12 @@ body {
     transform: scale(1.2);
   }
   
+  .projects-section {
+    background-image: url("images/background_pic.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: #fff; 
+  }
+  

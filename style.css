@@ -515,12 +515,31 @@ body {
     transform: scale(1.2);
   }
   
-  .projects-section {
-    background-image: url("images/background_pic.jpeg"); 
+  .projects-page {
+    background-image: url("images/bg-laptop.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 60px 20px;
-    color: #fff; 
+    min-height: 100vh;
   }
   
+  /* برای شفاف‌سازی محتوا روی بک‌گراند */
+  .projects-list {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border-left: 4px solid #6366f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+   

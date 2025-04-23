@@ -162,4 +162,68 @@ body {
     text-decoration: none;
     font-size: 16px;
   }
-            
+
+  .about-layout {
+    padding: 80px 40px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffeef1;
+  }
+  
+  .about-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .about-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 10px;
+  }
+  
+  .text-box {
+    background-color: #7fc4e2;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  /* شکل‌های خاص */
+  .icon-box.square {
+    background-color: #5caec7;
+    border-radius: 8px;
+  }
+  
+  .icon-box.hex {
+    background-color: #5caec7;
+    clip-path: polygon(
+      25% 5%, 75% 5%,
+      100% 50%,
+      75% 95%, 25% 95%,
+      0% 50%
+    );
+  }
+  
+  .icon-box.heart {
+    font-size: 50px;
+    background-color: transparent;
+  }
+  

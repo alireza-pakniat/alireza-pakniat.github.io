@@ -11,9 +11,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html"></a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="about.html">About Me</a></li>
-                
             </ul>
         </nav>
     </header>
@@ -27,16 +26,19 @@
             </div>
         </section>
 
-        <section class="grid">
-            <div class="card">
-                <h3>🛠 Projects</h3>
-                <p>Check out my web projects and development journey.</p>
-                <a href="projects.html">See Projects →</a>
-            </div>
-            <div class="card">
-                <h3>👤 About Me</h3>
-                <p>Learn more about my background, interests, and goals.</p>
-                <a href="about.html">Read More →</a>
+        <section class="carousel-section">
+            <h2>Explore</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn left">←</button>
+
+                <div class="carousel-track">
+                    <div class="carousel-item" onclick="location.href='projects.html'">🛠 Projects</div>
+                    <div class="carousel-item" onclick="location.href='about.html'">👤 About Me</div>
+                    <div class="carousel-item">📄 Resume</div>
+                    <div class="carousel-item">📬 Contact</div>
+                </div>
+
+                <button class="carousel-btn right">→</button>
             </div>
         </section>
     </main>
@@ -47,6 +49,20 @@
             <a href="https://github.com/alireza-pakniat" target="_blank">🐙 GitHub</a> |
             <a href="https://linkedin.com/in/alireza-pakniat" target="_blank">💼 LinkedIn</a>
         </div>
-    </footer>    
+    </footer>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const btnLeft = document.querySelector('.carousel-btn.left');
+        const btnRight = document.querySelector('.carousel-btn.right');
+
+        btnLeft.addEventListener('click', () => {
+            track.scrollBy({ left: -200, behavior: 'smooth' });
+        });
+
+        btnRight.addEventListener('click', () => {
+            track.scrollBy({ left: 200, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>

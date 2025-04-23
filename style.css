@@ -291,3 +291,24 @@ body {
     line-height: 1.8;
   }
   
+  .about-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .about-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    filter: grayscale(20%);
+    transition: 0.2s ease;
+  }
+  
+  .about-icons img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+
+  

@@ -543,3 +543,22 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   }
    
+  .projects-page {
+    padding-bottom: 0;  /* اگه پدینگ زیادی داشت */
+    margin-bottom: 0;   /* اگه مارجین زیادی داشت */
+  }
+  
+  .projects-list {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  

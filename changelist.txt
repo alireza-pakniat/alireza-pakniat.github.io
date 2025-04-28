@@ -1,0 +1,33 @@
+56062b3 - Alireza Pakniat, 6 hours ago : removing the extra space
+acb46cb - Alireza Pakniat, 7 hours ago : changing background photo
+9524ba3 - Alireza Pakniat, 7 hours ago : final version
+183c905 - Alireza Pakniat, 7 hours ago : debugging the pic
+b8b88a9 - Alireza Pakniat, 7 hours ago : add bg photo for projects
+08b9c08 - Alireza Pakniat, 7 hours ago : fixing footer icons
+35b154f - Alireza Pakniat, 7 hours ago : debugging navbar
+2624b03 - Alireza Pakniat, 7 hours ago : completing nav bar
+47d8ae1 - Alireza Pakniat, 7 hours ago : changing the style and colors
+eec7b87 - Alireza Pakniat, 8 hours ago : first version of Projects
+aba5a99 - Alireza Pakniat, 8 hours ago : adding footer for about me
+6d6c55e - Alireza Pakniat, 8 hours ago : add interest section in about me
+20d8073 - Alireza Pakniat, 8 hours ago : adding even card style to skills
+301ea14 - Alireza Pakniat, 8 hours ago : adding skills to about me
+93b1950 - Alireza Pakniat, 9 hours ago : fixing bugs
+fc218ba - Alireza Pakniat, 9 hours ago : fixing bugs
+78a4c3d - Alireza Pakniat, 9 hours ago : making the top of website look good
+40fbb3d - Alireza Pakniat, 9 hours ago : changing the skratch
+964f4b7 - Alireza Pakniat, 10 hours ago : Add about.html
+f143617 - Alireza Pakniat, 10 hours ago : Create styled About Me section based on sketch
+9d5a47a - Alireza Pakniat, 10 hours ago : Add GitHub link to footer
+4f1f3a9 - Alireza Pakniat, 10 hours ago : Add icons to section blocks
+e403925 - Alireza Pakniat, 10 hours ago : Add icons to section blocks
+af4a080 - Alireza Pakniat, 10 hours ago : Redesign top section with header, intro and image
+d14985d - Alireza Pakniat, 10 hours ago : Redesign homepage with carousel and modern layout
+9e1700c - Alireza Pakniat, 23 hours ago : Adding UI Ux things from the book
+0eadce9 - Alireza Pakniat, 23 hours ago : Improve navbar, add grid layout and footer links
+88b4491 - Alireza Pakniat, 23 hours ago : removing the little bugs
+a2eb979 - Alireza Pakniat, 23 hours ago : Removing the pic and adding a new one using float
+fa3892c - Alireza Pakniat, 23 hours ago : Updated version of Home page
+4aa1237 - Alireza Pakniat, 23 hours ago : 2nd version of home page with photo
+7fa00ab - Alireza Pakniat, 24 hours ago : first version of home page
+8ecb41a - Alireza Pakniat, 24 hours ago : uploading first files index and style

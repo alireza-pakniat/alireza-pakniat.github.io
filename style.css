@@ -612,4 +612,16 @@ body {
     outline: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+  .about-layout {
+    background-color: #fff3f5; /* کمی پررنگ‌تر برای contrast بهتر */
+  }
+  
+  .about-text h3 {
+    color: #2a2a2a; /* قبلاً #555 بود */
+  }
+  
+  .about-text p {
+    color: #222; /* قبلاً #333 یا #444 بود */
+  }
+
   

@@ -562,3 +562,32 @@ body {
     flex: 1;
   }
   
+  .hero-text .hello {
+    color: #333;  
+  }
+  
+  .subtitle {
+    color: #2a2a2a;  
+  }
+  
+  .projects-intro,
+  .project-card p {
+    color: #2d2d2d; 
+  }
+  
+  .navbar a {
+    color: #1b1b1b;
+  }
+  
+  .navbar a:hover {
+    color: #005bb5;
+  }
+  
+  .project-card a {
+    color: #0044cc;  
+  }
+  
+  .about-text h3 {
+    color: #333;
+  }
+  

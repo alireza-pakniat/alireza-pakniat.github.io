@@ -416,9 +416,10 @@ body {
   
   .footer-content p {
     font-size: 14px;
-    color: #777;
+    color: #333;  
     margin-bottom: 10px;
   }
+  
   
   .social-links {
     display: flex;
